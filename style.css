@@ -43,6 +43,11 @@ h2.titulo span {
   color: #00ff08;
 }
 
+button:hover {
+  box-shadow: 0px 0px 8px #00ff08;
+  transform: scale(1.05);
+}
+
 /* Estilo do Cabeçalho */
 
 header {
@@ -74,11 +79,6 @@ header nav ul {
 header nav ul li {
   display: inline-block;
   padding: 0 40px;
-}
-
-.btn-contato button:hover {
-  box-shadow: 0px 0px 8px #00ff08;
-  transform: scale(1.05);
 }
 
 /* Estilo do Topo do Site */
@@ -153,4 +153,47 @@ section.especialidades .flex {
 .especialidades .especialidades-box h3 {
   font-size: 28px;
   margin: 15px 0;
+}
+
+/* ESTILO DO SOBRE */
+
+section.sobre {
+  padding: 80px 4%;
+}
+
+section.sobre .flex {
+  align-items: center;
+  gap: 60px;
+}
+
+.sobre .txt-sobre {
+  color: #fff;
+}
+
+.sobre .txt-sobre h2 {
+  font-size: 40px;
+  line-height: 40px;
+  margin-bottom: 30px;
+}
+
+.sobre .txt-sobre h2 span {
+  color: #00ff08;
+  display: block;
+}
+
+.sobre .txt-sobre p {
+  margin: 20px 0;
+  text-align: justify;
+}
+
+.sobre .txt-sobre .btn-social button {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  background-color: #00ff08;
+  font-size: 22px;
+  cursor: pointer;
+  margin: 0 5px;
+  transition: .2s;
 }
