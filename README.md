@@ -29,6 +29,7 @@
 
 - [HTML](https://devdocs.io/html)
 - [CSS](https://devdocs.io/css)
+- [JavaScript](https://devdocs.io/javascript/)
 
 <h2 id="about">Sobre</h2>
 
