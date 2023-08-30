@@ -20,9 +20,9 @@
 
 <p align="center">
     <h3>Desktop</h3>
-        <img src="#" alt="Imagem para computadores" width="100%">
+        <img src="./images/image-desktop.png" alt="Imagem para computadores" width="100%">
     <h3>Mobile</h3>
-        <img src="#" alt="Imagem para celulares" width="50%">
+        <img src="./images/image-mobile.png" alt="Imagem para celulares" width="50%">
 </p>
 
 <h2 id="tech">💻 Tecnologias</h2>
